@@ -1,0 +1,15 @@
+
+.body1
+{
+	 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*Color de <a href="#" class="color" >Sección|ADMINISTRATIVA</a>*/
+.login-logo .color
+{
+	color: #FFFFFF;
+}
+ 
+

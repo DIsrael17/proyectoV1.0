@@ -1,0 +1,259 @@
+
+/*.over
+{
+	overflow: hidden;     eliminar sobreposicion
+}}}*/
+/*------------------------------------*/
+
+
+.encabezado
+{
+	background-color:#90A7B9;
+	margin-top:81px;
+	margin-bottom:0px;
+	height:100px; 
+}
+
+.encabezadoADMIN
+{
+	background-color:#90A7B9;
+	margin-top:51px;
+	margin-bottom:30px;
+	height:100px;
+}
+
+nav
+{
+	margin:0px;
+	background:green;
+}
+/*iba a servir para el padding de la cabezera*/
+.cabezera
+{
+	/*para que la cabecera este debajo de la barra de navegacion*/
+	padding-top: 90px;
+}
+
+body 
+{ 
+
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		/*---------------------*/
+		margin:0;
+		padding:0;
+		height:100%;
+		width:100%;
+		/*margin:0; padding:0; width:100%; height:100%; overflow:hidden; } 
+#background{ height:100%; width:100%; position:absolute;*/
+}
+
+.contenido
+{
+	margin: auto auto;
+	min-height:100%;
+}
+
+/*-----------------------------tamaño del logo, borde redondeado-----------------------------------*/
+.logo
+{
+	width:65px;
+	height:65px;
+
+	/*Borde redondo*/
+	border-radius: 194px 194px 194px 194px;
+	-moz-border-radius: 194px 194px 194px 194px;
+	-webkit-border-radius: 194px 194px 194px 194px;
+	border: 0px solid #000000;
+}
+/*-----------------------------tamaño del logo, borde redondeado-----------------------------------*/
+
+
+
+/*-------------------------------------Color del fondo y el semitrasparente-----------------------------------------------*/
+.fondoColor
+{
+	background-color: rgb(251, 252, 252, .9);
+}
+/*-------------------------------------Color del fondo y el semitrasparente-----------------------------------------------*/
+
+
+
+/*-------------------Color del texto, alineamiento, tamaño-----------------------------*/
+div main h1
+{
+	text-align:center;
+	font-size:35px;
+	font-family: Agency FB, Bodoni MT Condensed;
+}
+
+p
+{
+	font-size:25px;
+	font-family: Agency FB, Bodoni MT Condensed;
+}
+/*-------------------Color del texto,alineamiento, tamaño-----------------------------*/
+
+
+
+/*--------------------Configuracion para el footer------------------------*/
+
+
+html
+{
+  height:100%;
+  min-height:100%;
+}
+
+/*footer 
+{
+ 
+  height:150px;
+  background-color: red;
+  color: white;
+}*/
+
+
+/*El margin top del footer debe ser igual al padding-bottom del section en negativo*/
+footer 
+{
+	   background-color:black;
+	   color:white;
+	   position: relative;
+	   padding:5px;
+	   height:50%;
+}
+
+/*--------------------Configuracion para el footer------------------------
+
+
+/*-----------------MODAL---------------------*/
+
+.presentacion
+{
+	width:100%;
+	height:100vh;
+	background:rgb(223, 30, 50, .8);
+	position:absolute;
+	overflow:hidden;
+}
+/*-------------------------------------*/
+
+.tamaño
+{
+	width:100%;
+	height:500px;
+	margin-top:30px;
+
+}
+
+
+
+/*-----------------------------------scroll horizontal de la tabla------------------------------------------*/
+/*hace que el scroll aparesca, sirve para adapatar la tabla a la pantalla*/
+.scrollB
+{
+	overflow-x:auto;
+	background:white;
+	border-radius:  5px  5px  5px  5px;
+	-moz-border-radius:  5px  5px  5px  5px;
+	-webkit-border-radius: 5px  5px  5px  5px;
+	border: 0px solid #CBC5F9;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*color de las cabeceras de las tablas*/
+.theadB
+{
+	background:#0673ff;
+}
+
+/*table tbody tr td
+{
+	background:#CBC5F9;
+}*/
+/*-----------------------------------------------------------------------------------------------------------*/
+.MIB
+{
+	margin-left:20px;
+}
+.MIB2
+{
+	margin-right:20px !important;
+}
+
+.TAMA
+{
+	height:80px !important;
+}
+
+/*----------------------------------------------------orillas de las imagenes del carousel-------------------------------------------------------*/
+
+.orillas
+{
+   border-radius: 4px 4px 4px 4px;
+   -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+	border: 0px solid #000000;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------Color de fondo del admin----------------------------------------*/
+.ColorAdmin
+{
+	background-color:#CBC5F9;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------Sombras Bordes-------------------------------------------------------*/
+
+
+.sombrasBorde
+{
+	-webkit-box-shadow: -3px -1px 72px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -3px -1px 72px -2px rgba(0,0,0,0.75);
+	box-shadow: -3px -1px 72px -2px rgba(0,0,0,0.75);
+
+
+	border-radius: 4px 4px 4px 4px;
+   -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+	border: 0px solid #000000;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------zoom a imagen--------------------------------------------------------------------*/
+
+.img-contenedor img {
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+width:100%;
+}
+.img-contenedor:hover img {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+.img-contenedor {/*Ancho y altura son modificables al requerimiento de cada uno*/
+width:70px;
+height:70px;
+overflow:hidden;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------padding del container----------------------------------------------*/
+.PCT
+{
+	padding:10%;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+.eliminar
+{
+	/*overflow:hidden;*/
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*------------------------------------Fondo de la página principal "home"-----------------------------------------------------------------------*/
